@@ -1,5 +1,5 @@
 {% set name = "easycheck" %}
-{% set version = "0.7.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/easycheck-{{ version }}.tar.gz
-  sha256: 502cc7b48b1ffaccfe8339f6bcbb399c5e68c9ae2170466bc9d6d7696f230669
+  sha256: 143c17dddbdf1ae74b4a82954d426be3a7678df7965fdf1f2985bf836bed47c9
 
 build:
   noarch: python
